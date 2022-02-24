@@ -1,0 +1,17 @@
+/* Define standard variables and values for website */
+$bgcolor: lightblue;
+$textcolor: darkblue;
+$fontsize: 18px;
+
+$atextcolor: rgb(125, 0, 0);
+
+/* Use the variables */
+body {
+    background-color: $bgcolor;
+    color: $textcolor;
+    font-size: $fontsize;
+}
+
+a {
+    color: $atextcolor;
+}
